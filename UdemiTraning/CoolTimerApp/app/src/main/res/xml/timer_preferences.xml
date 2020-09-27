@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:title="Enable Sound"
+        android:key="enable_sound"
+        android:defaultValue="true"
+        android:summaryOff="Sound Disabled"
+        android:summaryOn="Sound Enables"
+        />
+
+    <ListPreference
+        android:title="Melody"
+        android:key="melody"
+        android:defaultValue="bip"
+        android:entries="@array/melody_labels"
+        android:entryValues="@array/melody_values"
+        />
+
+    <EditTextPreference
+        android:title="Default Time"
+        android:key="default_time"
+        android:defaultValue="30"
+        />
+
+</PreferenceScreen>

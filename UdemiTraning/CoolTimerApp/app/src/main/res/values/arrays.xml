@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="melody_labels">
+        <item>Bip</item>
+        <item>Siren</item>
+        <item>Bell</item>
+    </array>
+    
+    <array name="melody_values">
+        <item>bip</item>
+        <item>siren</item>
+        <item>bell</item>
+    </array>
+
+</resources>
